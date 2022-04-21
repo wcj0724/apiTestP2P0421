@@ -1,0 +1,147 @@
+2022-04-20 19:13:19,048 INFO [root] [__init__.py(<module>:4)] - 开始打印日志了----------
+2022-04-20 19:13:19,116 INFO [root] [utils.py(read_params_data:189)] - test_case_data=[['float', None], ['int', None], ['', None], ['char', None]]
+2022-04-20 19:13:19,275 INFO [root] [testLoginAPI.py(test01_get_imgCode_random_float_success:49)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:13:19,385 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:13:19,495 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:13:19,616 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [404]>
+2022-04-20 19:13:19,723 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [400]>
+2022-04-20 19:13:19,956 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:70)] - ['a', 'g', 'b', 'k', 'e', 'i', 'j', 'd']
+2022-04-20 19:13:19,956 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:73)] - agbkeijd
+2022-04-20 19:13:20,158 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:84)] - 13631884000
+2022-04-20 19:13:20,223 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:86)] - 获取短信验证码接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:13:20,390 INFO [root] [testLoginAPI.py(test06_get_SmsCode_phoneIsNull_fail:97)] - 获取短信验证码接口的响应数据为：{'status': 100}
+2022-04-20 19:13:20,391 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:104)] - 13614838075
+2022-04-20 19:13:20,550 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:110)] - 获取短信验证码接口的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:13:20,551 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:116)] - 13647738638
+2022-04-20 19:13:20,708 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:123)] - 获取短信验证码的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:13:20,709 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272704
+2022-04-20 19:13:20,935 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:13:20,940 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272705
+2022-04-20 19:13:21,161 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:13:21,167 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272704
+2022-04-20 19:13:21,381 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:13:21,383 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272706
+2022-04-20 19:13:21,597 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:13:21,601 INFO [root] [testLoginAPI.py(test09_register_optional_success:146)] - 注册成功的手机号为：13631405964
+2022-04-20 19:13:22,040 INFO [root] [testLoginAPI.py(test09_register_optional_success:157)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:13:22,041 INFO [root] [testLoginAPI.py(test10_register_optional_success:162)] - 注册成功的手机号为：13653220178
+2022-04-20 19:13:22,454 INFO [root] [testLoginAPI.py(test10_register_optional_success:173)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:13:22,687 INFO [root] [testLoginAPI.py(test11_register_phoneIsNull_fail:186)] - 注册接口的响应数据为：{'status': 100}
+2022-04-20 19:13:23,124 INFO [root] [testLoginAPI.py(test12_register_passwordIsNull_fail:202)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:13:23,301 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:212)] - 注册接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:13:23,351 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:216)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码不能为空!'}
+2022-04-20 19:13:23,574 INFO [root] [testLoginAPI.py(test14_register_smsCodeIsNull_fail:231)] - 注册接口的响应数据为：{'status': 100, 'description': '短信验证码不能为空'}
+2022-04-20 19:13:24,000 INFO [root] [testLoginAPI.py(test15_register_disagreenProtocol_fail:246)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:13:24,238 INFO [root] [testLoginAPI.py(test16_register_imgCodeError_fail:261)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误!'}
+2022-04-20 19:13:24,455 INFO [root] [testLoginAPI.py(test17_register_smsCodeError_fail:276)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误'}
+2022-04-20 19:13:24,685 INFO [root] [testLoginAPI.py(test18_register_phoneIsExist_fail:290)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:13:24,899 INFO [root] [testLoginAPI.py(test19_register_invite_phoneIsNotExist_fail:305)] - 注册接口的响应数据为：{'status': 100, 'description': '推荐人不存在'}
+2022-04-20 19:13:25,173 INFO [root] [testLoginAPI.py(test20__login_success:312)] - 登录接口的响应数据为：{'status': 200, 'description': '登录成功'}
+2022-04-20 19:13:25,279 INFO [root] [testLoginAPI.py(test21_login_phoneIsNull_fail:319)] - 登录接口的响应数据为：{'status': 100, 'description': '用户名不能为空'}
+2022-04-20 19:13:25,381 INFO [root] [testLoginAPI.py(test22_login_passwordIsNull_fail:326)] - 登录接口的响应数据为：{'status': 100, 'description': '密码不能为空'}
+2022-04-20 19:13:25,501 INFO [root] [testLoginAPI.py(test23_login_phoneIsNotExist_fail:333)] - 登录接口的响应数据为：{'status': 100, 'description': '用户不存在'}
+2022-04-20 19:13:25,609 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:341)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-04-20 19:13:25,673 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:345)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-04-20 19:13:25,733 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:349)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:13:25,788 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:354)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:14:31,080 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:361)] - 登录接口的响应数据为：{'status': 200, 'description': '登录成功'}
+2022-04-20 19:14:31,408 INFO [root] [testLoginAPI.py(test25_register_optional_success:370)] - 登录状态查询接口的响应数据为：{'status': 200, 'description': 'OK'}
+2022-04-20 19:14:31,507 INFO [root] [testLoginAPI.py(test26_register_optional_success:377)] - 登录状态查询接口的响应数据为：{'status': 250, 'description': '您未登陆！'}
+2022-04-20 19:15:07,521 INFO [root] [__init__.py(<module>:4)] - 开始打印日志了----------
+2022-04-20 19:15:07,527 INFO [root] [utils.py(read_params_data:181)] - test_case_data=[['float', 200], ['int', 200], ['', 404], ['char', 400]]
+2022-04-20 19:15:07,667 INFO [root] [testLoginAPI.py(test01_get_imgCode_random_float_success:49)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:15:07,772 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:15:07,884 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:15:07,981 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [404]>
+2022-04-20 19:15:08,085 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [400]>
+2022-04-20 19:15:08,294 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:70)] - ['g', 'j', 'a', 'e', 'f', 'h', 'd', 'c']
+2022-04-20 19:15:08,294 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:73)] - gjaefhdc
+2022-04-20 19:15:08,497 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:84)] - 13681793739
+2022-04-20 19:15:08,559 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:86)] - 获取短信验证码接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:15:08,716 INFO [root] [testLoginAPI.py(test06_get_SmsCode_phoneIsNull_fail:97)] - 获取短信验证码接口的响应数据为：{'status': 100}
+2022-04-20 19:15:08,717 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:104)] - 13672170731
+2022-04-20 19:15:08,881 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:110)] - 获取短信验证码接口的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:15:08,882 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:116)] - 13630857212
+2022-04-20 19:15:09,034 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:123)] - 获取短信验证码的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:15:09,035 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272704
+2022-04-20 19:15:09,262 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:15:09,267 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272705
+2022-04-20 19:15:09,478 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:15:09,481 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272704
+2022-04-20 19:15:09,698 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:15:09,699 INFO [root] [testLoginAPI.py(test09_params_register_required_success:131)] - 注册的手机号为:13527272706
+2022-04-20 19:15:09,911 INFO [root] [testLoginAPI.py(test09_params_register_required_success:141)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:15:09,914 INFO [root] [testLoginAPI.py(test09_register_optional_success:146)] - 注册成功的手机号为：13658585786
+2022-04-20 19:15:10,326 INFO [root] [testLoginAPI.py(test09_register_optional_success:157)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:15:10,327 INFO [root] [testLoginAPI.py(test10_register_optional_success:162)] - 注册成功的手机号为：13698841480
+2022-04-20 19:15:10,734 INFO [root] [testLoginAPI.py(test10_register_optional_success:173)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:15:10,960 INFO [root] [testLoginAPI.py(test11_register_phoneIsNull_fail:186)] - 注册接口的响应数据为：{'status': 100}
+2022-04-20 19:15:11,362 INFO [root] [testLoginAPI.py(test12_register_passwordIsNull_fail:202)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:15:11,526 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:212)] - 注册接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:15:11,576 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:216)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码不能为空!'}
+2022-04-20 19:15:11,802 INFO [root] [testLoginAPI.py(test14_register_smsCodeIsNull_fail:231)] - 注册接口的响应数据为：{'status': 100, 'description': '短信验证码不能为空'}
+2022-04-20 19:15:12,209 INFO [root] [testLoginAPI.py(test15_register_disagreenProtocol_fail:246)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:15:12,421 INFO [root] [testLoginAPI.py(test16_register_imgCodeError_fail:261)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误!'}
+2022-04-20 19:15:12,646 INFO [root] [testLoginAPI.py(test17_register_smsCodeError_fail:276)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误'}
+2022-04-20 19:15:12,883 INFO [root] [testLoginAPI.py(test18_register_phoneIsExist_fail:290)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:15:13,113 INFO [root] [testLoginAPI.py(test19_register_invite_phoneIsNotExist_fail:305)] - 注册接口的响应数据为：{'status': 100, 'description': '推荐人不存在'}
+2022-04-20 19:15:13,393 INFO [root] [testLoginAPI.py(test20__login_success:312)] - 登录接口的响应数据为：{'status': 200, 'description': '登录成功'}
+2022-04-20 19:15:13,502 INFO [root] [testLoginAPI.py(test21_login_phoneIsNull_fail:319)] - 登录接口的响应数据为：{'status': 100, 'description': '用户名不能为空'}
+2022-04-20 19:15:13,613 INFO [root] [testLoginAPI.py(test22_login_passwordIsNull_fail:326)] - 登录接口的响应数据为：{'status': 100, 'description': '密码不能为空'}
+2022-04-20 19:15:13,713 INFO [root] [testLoginAPI.py(test23_login_phoneIsNotExist_fail:333)] - 登录接口的响应数据为：{'status': 100, 'description': '用户不存在'}
+2022-04-20 19:15:13,822 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:341)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-04-20 19:15:13,884 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:345)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-04-20 19:15:13,948 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:349)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:15:14,004 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:354)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:16:19,428 INFO [root] [testLoginAPI.py(test25_register_optional_success:370)] - 登录状态查询接口的响应数据为：{'status': 200, 'description': 'OK'}
+2022-04-20 19:16:19,531 INFO [root] [testLoginAPI.py(test26_register_optional_success:377)] - 登录状态查询接口的响应数据为：{'status': 250, 'description': '您未登陆！'}
+2022-04-20 19:16:38,736 INFO [root] [__init__.py(<module>:4)] - 开始打印日志了----------
+2022-04-20 19:16:38,743 INFO [root] [utils.py(read_params_data:181)] - test_case_data=[['float', 200], ['int', 200], ['', 404], ['char', 400]]
+2022-04-20 19:16:38,744 INFO [root] [utils.py(read_params_data:181)] - test_case_data=[['13527272707', '123456wcj', '8888', '666666', 'on', '', 200, 200, '注册成功'], ['13527272708', '123456wcj', '8888', '666666', 'on', '18281626378', 200, 200, '注册成功'], ['13527272708', '123456wcj', '8888', '666666', 'on', '', 200, 100, '手机已存在!'], ['13527272709', '', '8888', '666666', 'on', '', 200, 100, '密码不能为空']]
+2022-04-20 19:16:38,896 INFO [root] [testLoginAPI.py(test01_get_imgCode_random_float_success:49)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:16:38,998 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:16:39,100 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [200]>
+2022-04-20 19:16:39,210 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [404]>
+2022-04-20 19:16:39,309 INFO [root] [testLoginAPI.py(test01_params_get_imgCode_random_float_success:42)] - 获取图片验证码接口的响应数据为：<Response [400]>
+2022-04-20 19:16:39,528 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:70)] - ['c', 'h', 'k', 'd', 'g', 'i', 'f', 'a']
+2022-04-20 19:16:39,528 INFO [root] [testLoginAPI.py(test04_get_imgCode_random_isStr_success:73)] - chkdgifa
+2022-04-20 19:16:39,735 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:84)] - 13651511066
+2022-04-20 19:16:39,801 INFO [root] [testLoginAPI.py(test05_get_SmsCode_success:86)] - 获取短信验证码接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:16:39,964 INFO [root] [testLoginAPI.py(test06_get_SmsCode_phoneIsNull_fail:97)] - 获取短信验证码接口的响应数据为：{'status': 100}
+2022-04-20 19:16:39,965 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:104)] - 13613397788
+2022-04-20 19:16:40,127 INFO [root] [testLoginAPI.py(test07_get_SmsCode_imgVerifyCodeIsNull_fail:110)] - 获取短信验证码接口的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:16:40,129 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:116)] - 13673707438
+2022-04-20 19:16:40,298 INFO [root] [testLoginAPI.py(test08_get_SmsCode_imgVerifyCode_Error_fail:123)] - 获取短信验证码的响应数据为：{'status': 100, 'description': '图片验证码错误'}
+2022-04-20 19:16:40,299 INFO [root] [testLoginAPI.py(test09_params_register_required_success:132)] - 注册的手机号为:13527272707
+2022-04-20 19:16:40,698 INFO [root] [testLoginAPI.py(test09_params_register_required_success:142)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:40,699 INFO [root] [testLoginAPI.py(test09_params_register_required_success:132)] - 注册的手机号为:13527272708
+2022-04-20 19:16:41,114 INFO [root] [testLoginAPI.py(test09_params_register_required_success:142)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:41,115 INFO [root] [testLoginAPI.py(test09_params_register_required_success:132)] - 注册的手机号为:13527272708
+2022-04-20 19:16:41,332 INFO [root] [testLoginAPI.py(test09_params_register_required_success:142)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:16:41,333 INFO [root] [testLoginAPI.py(test09_params_register_required_success:132)] - 注册的手机号为:13527272709
+2022-04-20 19:16:41,740 INFO [root] [testLoginAPI.py(test09_params_register_required_success:142)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:41,750 INFO [root] [testLoginAPI.py(test09_register_optional_success:147)] - 注册成功的手机号为：13687271752
+2022-04-20 19:16:42,159 INFO [root] [testLoginAPI.py(test09_register_optional_success:158)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:42,164 INFO [root] [testLoginAPI.py(test10_register_optional_success:163)] - 注册成功的手机号为：13672509628
+2022-04-20 19:16:42,582 INFO [root] [testLoginAPI.py(test10_register_optional_success:174)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:42,808 INFO [root] [testLoginAPI.py(test11_register_phoneIsNull_fail:187)] - 注册接口的响应数据为：{'status': 100}
+2022-04-20 19:16:43,209 INFO [root] [testLoginAPI.py(test12_register_passwordIsNull_fail:203)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:43,388 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:213)] - 注册接口的响应数据为：{'status': 200, 'description': '短信发送成功'}
+2022-04-20 19:16:43,440 INFO [root] [testLoginAPI.py(test13_register_imgCodeIsNull_fail:217)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码不能为空!'}
+2022-04-20 19:16:43,656 INFO [root] [testLoginAPI.py(test14_register_smsCodeIsNull_fail:232)] - 注册接口的响应数据为：{'status': 100, 'description': '短信验证码不能为空'}
+2022-04-20 19:16:44,105 INFO [root] [testLoginAPI.py(test15_register_disagreenProtocol_fail:247)] - 注册接口的响应数据为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-04-20 19:16:44,328 INFO [root] [testLoginAPI.py(test16_register_imgCodeError_fail:262)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误!'}
+2022-04-20 19:16:44,549 INFO [root] [testLoginAPI.py(test17_register_smsCodeError_fail:277)] - 注册接口的响应数据为：{'status': 100, 'description': '验证码错误'}
+2022-04-20 19:16:44,770 INFO [root] [testLoginAPI.py(test18_register_phoneIsExist_fail:291)] - 注册接口的响应数据为：{'status': 100, 'description': '手机已存在!'}
+2022-04-20 19:16:44,983 INFO [root] [testLoginAPI.py(test19_register_invite_phoneIsNotExist_fail:306)] - 注册接口的响应数据为：{'status': 100, 'description': '推荐人不存在'}
+2022-04-20 19:16:45,260 INFO [root] [testLoginAPI.py(test20__login_success:313)] - 登录接口的响应数据为：{'status': 200, 'description': '登录成功'}
+2022-04-20 19:16:45,363 INFO [root] [testLoginAPI.py(test21_login_phoneIsNull_fail:320)] - 登录接口的响应数据为：{'status': 100, 'description': '用户名不能为空'}
+2022-04-20 19:16:45,464 INFO [root] [testLoginAPI.py(test22_login_passwordIsNull_fail:327)] - 登录接口的响应数据为：{'status': 100, 'description': '密码不能为空'}
+2022-04-20 19:16:45,567 INFO [root] [testLoginAPI.py(test23_login_phoneIsNotExist_fail:334)] - 登录接口的响应数据为：{'status': 100, 'description': '用户不存在'}
+2022-04-20 19:16:45,678 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:342)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-04-20 19:16:45,738 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:346)] - 登录接口的响应数据为：{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-04-20 19:16:45,798 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:350)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:16:45,859 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:355)] - 登录接口的响应数据为：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-04-20 19:17:51,192 INFO [root] [testLoginAPI.py(test24_login_passwordIsError_threeTimes_fail:362)] - 登录接口的响应数据为：{'status': 200, 'description': '登录成功'}
+2022-04-20 19:17:51,519 INFO [root] [testLoginAPI.py(test25_register_optional_success:371)] - 登录状态查询接口的响应数据为：{'status': 200, 'description': 'OK'}
+2022-04-20 19:17:51,627 INFO [root] [testLoginAPI.py(test26_register_optional_success:378)] - 登录状态查询接口的响应数据为：{'status': 250, 'description': '您未登陆！'}

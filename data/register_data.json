@@ -1,0 +1,52 @@
+{
+  "register_data":[
+    {
+      "desc": "9-注册-成功（必填参数正确）",
+      "phone": "13527272707",
+      "password":"123456wcj",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "10-注册-成功（全部参数正确）",
+      "phone": "13527272708",
+      "password":"123456wcj",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "18281626378",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "11-注册 - 失败（手机号已经存在）",
+      "phone": "13527272708",
+      "password":"123456wcj",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "手机已存在!"
+    },
+    {
+      "desc": "12-注册 - 失败（密码为空）",
+      "phone": "13527272709",
+      "password":"",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "密码不能为空"
+    }
+  ]
+}

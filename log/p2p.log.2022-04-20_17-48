@@ -1,0 +1,2 @@
+2022-04-20 17:48:58,200 INFO [root] [__init__.py(<module>:4)] - 开始打印日志了----------
+2022-04-20 17:48:58,510 INFO [root] [testLoginAPI.py(test11_register_phoneIsNull_fail:166)] - 注册接口的响应数据为：{'status': 100}
